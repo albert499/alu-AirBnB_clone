@@ -1,9 +1,6 @@
+#!/usr/bin/python3
 """The __init__ method for models directory"""
-from models.engine import file_storage
+from models.engine.file_storage import FileStorage
 
-storage = file_storage.FileStorage()
-storage.reload()"""The __init__ method for models directory"""
-from models.engine import file_storage
-
-storage = file_storage.FileStorage()
+storage = FileStorage()
 storage.reload()

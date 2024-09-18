@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-Module documentation
-"""
+
+"""Unittest for Review Class."""
+
 import unittest
 
 from models.review import Review
